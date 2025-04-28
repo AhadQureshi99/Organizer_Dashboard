@@ -1,7 +1,6 @@
 import React from "react";
 import Organizer_Sidebar from "../Sidebar/Organizer_Sidebar";
 import Organizer_Navbar from "../Organizer_Navbar/Organizer_Navbar";
-import user3 from "./Images/user3.jpg";
 const feedbackData = [
   {
     name: "Alison Thomas",
@@ -106,7 +105,7 @@ const Ratings_And_Feedback = () => {
                   >
                     <td className="p-3 flex items-center gap-2">
                       <img
-                        src={user3}
+                        src="/images/user3.jpg"
                         alt="user"
                         className="w-8 h-8 rounded-full object-cover"
                       />
