@@ -1,6 +1,7 @@
 import React from "react";
 import Organizer_Sidebar from "../../Sidebar/Organizer_Sidebar";
 import Organizer_Navbar from "../../Organizer_Navbar/Organizer_Navbar";
+import profile from "./Images/myprofile.jpg";
 
 const Edit_Profile = () => {
   return (
@@ -15,7 +16,7 @@ const Edit_Profile = () => {
             <div className="flex flex-col items-center">
               <div className="relative">
                 <img
-                  src="/images/myprofile.jpg"
+                  src={profile}
                   alt="Profile"
                   className="rounded-full w-[100px] h-[100px] object-cover"
                 />
