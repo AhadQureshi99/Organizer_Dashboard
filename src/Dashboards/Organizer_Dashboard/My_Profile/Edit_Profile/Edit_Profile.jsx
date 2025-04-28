@@ -2,6 +2,7 @@ import React from "react";
 import myprofile from "./images/myprofile.jpg";
 import Organizer_Sidebar from "../../Sidebar/Organizer_Sidebar";
 import Organizer_Navbar from "../../Organizer_Navbar/Organizer_Navbar";
+import myprofile from "./Images/myprofile.jpg"
 
 const Edit_Profile = () => {
   return (
