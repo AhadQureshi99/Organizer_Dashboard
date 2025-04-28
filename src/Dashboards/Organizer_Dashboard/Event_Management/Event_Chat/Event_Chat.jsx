@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiDeleteBin7Line } from "react-icons/ri";
 import { PiPencilSimpleLine } from "react-icons/pi";
-import ad from "./images/ad.jpg";
-import ad2 from "./images/ad2.jpg";
-import ad3 from "./images/ad3.jpg";
+import ad from "./Images/ad.jpg";
+import ad2 from "./Images/ad2.jpg";
+import ad3 from "./Images/ad3.jpg";
 import Organizer_Sidebar from "../../Sidebar/Organizer_Sidebar";
 import Organizer_Navbar from "../../Organizer_Navbar/Organizer_Navbar";
 

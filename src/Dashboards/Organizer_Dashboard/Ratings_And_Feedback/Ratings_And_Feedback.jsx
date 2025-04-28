@@ -1,7 +1,7 @@
 import React from "react";
 import Organizer_Sidebar from "../Sidebar/Organizer_Sidebar";
 import Organizer_Navbar from "../Organizer_Navbar/Organizer_Navbar";
-import user3 from "./images/user3.jpg";
+import user3 from "./Images/user3.jpg";
 const feedbackData = [
   {
     name: "Alison Thomas",

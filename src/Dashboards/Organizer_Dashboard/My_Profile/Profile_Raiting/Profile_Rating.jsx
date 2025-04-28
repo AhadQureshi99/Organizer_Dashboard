@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosStar, IoIosStarOutline } from "react-icons/io";
-import profile4 from "./images/profile4.jpg";
+import profile4 from "./Images/profile4.jpg";
 
 const Profile_Rating = () => {
   return (

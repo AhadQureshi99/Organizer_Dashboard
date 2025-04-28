@@ -5,7 +5,7 @@ import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Organizer_Navbar from "../Organizer_Navbar/Organizer_Navbar";
 import Organizer_Sidebar from "../Sidebar/Organizer_Sidebar";
-import userImage from "./images/user.jpg"
+import userImage from "./Images/user.jpg";
 const players = new Array(10).fill({
   name: "Alison Thomas",
   location: "Bern, Switzerland",

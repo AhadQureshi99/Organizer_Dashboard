@@ -4,7 +4,7 @@ import Organizer_Navbar from "../../Organizer_Navbar/Organizer_Navbar";
 import { RiDeleteBin7Line } from "react-icons/ri";
 import { FaPlus } from "react-icons/fa6";
 import { GoArrowSwitch } from "react-icons/go";
-import football from "./images/football.jpg"
+import football from "./Images/football.jpg";
 
 const Event_Manage_Form = () => {
   return (
@@ -78,7 +78,7 @@ const Event_Manage_Form = () => {
                     <td className="py-3">
                       <div className="flex space-x-2 text-white text-xs">
                         <button className="rounded-full p-2 bg-[#e45252] text-white ">
-                        <GoArrowSwitch />
+                          <GoArrowSwitch />
                         </button>
                         <button className="rounded-full p-2 bg-[#e45252] text-white ">
                           <RiDeleteBin7Line />
