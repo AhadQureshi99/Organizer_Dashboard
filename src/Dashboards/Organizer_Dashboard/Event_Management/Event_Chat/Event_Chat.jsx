@@ -70,7 +70,7 @@ const Event_Chat = () => {
                   {/* Left */}
                   <div className="flex items-center gap-3 min-w-[200px]">
                     <img
-                      src={event.image}
+                      src="/images/ad.jpg"
                       alt="event"
                       className="w-10 h-10 rounded-full object-cover"
                     />
