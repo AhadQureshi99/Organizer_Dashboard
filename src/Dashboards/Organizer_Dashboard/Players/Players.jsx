@@ -5,13 +5,13 @@ import { BsStar } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Organizer_Navbar from "../Organizer_Navbar/Organizer_Navbar";
 import Organizer_Sidebar from "../Sidebar/Organizer_Sidebar";
-
+import userImage from "./images/user.jpg"
 const players = new Array(10).fill({
   name: "Alison Thomas",
   location: "Bern, Switzerland",
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo blanditiis esse debitis suscipit repudiandae quisquam nobis expedita distinctio, inventore alias.",
-  image: user,
+  image: userImage,
   rating: 3,
 });
 
@@ -29,8 +29,8 @@ const PlayerCard = ({ name, location, description, image, rating }) => {
       <div className="flex items-center gap-2">
         <img
           className="rounded-full w-[84px] h-[84px] object-cover"
-          src="/images/user.jpg"
-          alt="User"
+          src={userImage}
+          alt={name}
         />
         <div className="flex flex-col gap-1">
           <p className="text-xl font-semibold">{name}</p>
